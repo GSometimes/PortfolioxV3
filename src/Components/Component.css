@@ -1,0 +1,143 @@
+.myName{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 75vw;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* mix-blend-mode: difference; */
+}
+
+#hello{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    /* background: linear-gradient(to top, #fa320f, #ffc738);     -webkit-background-clip: text;     -webkit-text-fill-color: transparent; */
+}
+
+#name{
+    margin: 0 auto;
+    font-size: 70px;
+    color: white;
+    letter-spacing: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    /* background: linear-gradient(to bottom right, red, grey);     -webkit-background-clip: text;     -webkit-text-fill-color: transparent; */
+}
+
+/* #myPic{
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.bannerContainer{
+    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607229769/Portfolio1/nicole-y-c-etw7KoIn3Gw-unsplash_1_gm0joc.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.linkContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 12.5vh;
+    top: 0;
+
+  }
+  .homeIcon:hover, .projectsIcon:hover, .contactIcon:hover, .aboutIcon:hover {
+    filter: invert(1);
+  }
+
+  
+  .homeIcon {
+    background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/8_sbydpk.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75%;
+    min-width: 100px;
+    height: 150px;
+    display: flex;
+    /* filter: invert(1); */
+  }
+  .aboutIcon {
+    background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/7_rtjtxw.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75%;
+    min-width: 100px;
+    height: 150px;
+    /* filter: invert(1); */
+  }
+  .projectsIcon {
+    background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/9_bga09d.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75%;
+    min-width: 100px;
+    height: 150px;
+    /* filter: invert(1); */
+  }
+  
+  .contactIcon {
+    background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/10_tdfln9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75%;
+    min-width: 100px;
+    height: 150px;
+  }
+  
+  .navBox {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 0;
+    transition: all 1s;
+    /* transform: translateX(80vw) 1s ease; */
+  }
+  
+  .width1 {
+    width: 75vw;
+    /* transform: translateX(0); */
+    /* z-index: 100; */
+    /* animation: fadein 2s; */
+  }
+  
+  .navLink {
+    font-size: 36px;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+  }
+  
