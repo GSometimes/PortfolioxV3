@@ -69,19 +69,19 @@ const NavBar = () => {
 
       <div className={`navBox ${aboutExpand}`}>
         <div className="navLink">
-            <h1>About</h1>
+            <p>About</p>
         </div>
       </div>
 
       <div className={`navBox ${projectsExpand}`}>
         <div className="navLink">
-            <h1>Projects</h1>
+            <p>Projects</p>
         </div>
       </div>
 
       <div className={`navBox ${contactExpand}`}>
         <div className="navLink">
-            <h1>Contact</h1>
+            <p>Contact</p>
         </div>
       </div>
         </>

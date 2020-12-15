@@ -13,7 +13,7 @@ const Main = (props) => {
 
             </div>
         </div>
-        <div className="footer">Designs by Sometimes</div>
+        <div className="footer">© Designs by Sometimes</div>
         </>
     )
 }

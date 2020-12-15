@@ -49,6 +49,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
 } */
+/* End of Banner Text Container */
+
+/* Main Container with Background Image and Navigation  */
 
 .bannerContainer{
     background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1608013141/Portfolio1/IMG_9264_1_spwd0a.jpg");
@@ -58,6 +61,7 @@
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    
 }
 
 .linkContainer {
@@ -67,11 +71,12 @@
     justify-content: space-evenly;
     align-items: center;
     height: 75vh;
-    width: 10vw;
+    width: 12.5vw;
     margin-left: 10px;
     margin-top: 12.5vh;
     top: 0;
     right: 0;
+    filter: invert(1);
     /* mix-blend-mode: difference; */
 
 
@@ -138,7 +143,7 @@
   }
   
   .width1 {
-    width: 75vw;
+    width: 80vw;
     /* transform: translateX(0); */
     /* z-index: 100; */
     /* animation: fadein 2s; */
@@ -153,4 +158,149 @@
     justify-content: space-between; */
     height: 50%;
   }
+
+  /* End of Main Container */
   
+  @media only screen and (max-width: 425px) {
+      .myName{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        width: 75vw;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        /* mix-blend-mode: difference; */
+        /* background: linear-gradient(to bottom, red, grey);     -webkit-background-clip: text;     -webkit-text-fill-color: transparent; */
+    
+    }
+    
+    #hello{
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    
+    #name{
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        letter-spacing: 15px;
+        font-family: 'Great Vibes', cursive;
+        font-weight: bold;
+        text-align: center;
+
+    }
+    
+    #designer{
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .linkContainer {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 75vh;
+      width: 20vw;
+      margin-left: 10px;
+      margin-top: 12.5vh;
+      top: 0;
+      right: 0;
+      /* mix-blend-mode: difference; */
+  
+  
+    }
+    .homeIcon:hover, .projectsIcon:hover, .contactIcon:hover, .aboutIcon:hover {
+      filter: invert(1);
+    }
+  
+    
+    .homeIcon {
+      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/8_sbydpk.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 75%;
+      min-width: 100px;
+      height: 150px;
+      display: flex;
+      /* filter: invert(1); */
+    }
+    .aboutIcon {
+      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/7_rtjtxw.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 75%;
+      min-width: 100px;
+      height: 150px;
+      /* filter: invert(1); */
+    }
+    .projectsIcon {
+      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/9_bga09d.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 75%;
+      min-width: 100px;
+      height: 150px;
+      /* filter: invert(1); */
+    }
+    
+    .contactIcon {
+      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/10_tdfln9.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 75%;
+      min-width: 100px;
+      height: 150px;
+      /* filter: invert(1); */
+  
+    }
+    
+    .navBox {
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      width: 0;
+      transition: all 1s;
+      /* transform: translateX(80vw) 1s ease; */
+    }
+    
+    .width1 {
+      width: 80vw;
+      /* transform: translateX(0); */
+      /* z-index: 100; */
+      /* animation: fadein 2s; */
+    }
+    
+    .navLink {
+      font-size: 36px;
+      position: absolute;
+      color: white;
+      /* display: flex;
+      flex-direction: column;
+      justify-content: space-between; */
+      height: 50%;
+    }
+  
+    /* End of Main Container */
+  
+
+
+  }
