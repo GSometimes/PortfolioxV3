@@ -3,12 +3,12 @@ import '../App.css';
 import './Component.css';
 
 const NavBar = () => {
-    const [homeToggle, setHomeToggle] = useState(false);
+    // const [homeToggle, setHomeToggle] = useState(false);
     const [aboutToggle, setAboutToggle] = useState(false);
     const [projectsToggle, setProjectsToggle] = useState(false);
     const [contactToggle, setContactToggle] = useState(false);
   
-    const homeExpand = homeToggle ? "width1" : "";
+    // const homeExpand = homeToggle ? "width1" : "";
     const aboutExpand = aboutToggle ? "width1" : "";
     const projectsExpand = projectsToggle ? "width1" : "";
     const contactExpand = contactToggle ? "width1" : "";
@@ -19,7 +19,7 @@ const NavBar = () => {
         <div
           className="homeIcon"
           onClick={() => {
-            setHomeToggle(!homeToggle);
+            // setHomeToggle(!homeToggle);
             setAboutToggle(false);
             setProjectsToggle(false);
             setContactToggle(false);
@@ -30,7 +30,7 @@ const NavBar = () => {
           className="aboutIcon"
           onClick={() => {
             setAboutToggle(!aboutToggle);
-            setHomeToggle(false);
+            // setHomeToggle(false);
             setProjectsToggle(false);
             setContactToggle(false);
           }}
@@ -40,7 +40,7 @@ const NavBar = () => {
           className="projectsIcon"
           onClick={() => {
             setProjectsToggle(!projectsToggle);
-            setHomeToggle(false);
+            // setHomeToggle(false);
             setAboutToggle(false);
             setContactToggle(false);
           }}
@@ -50,14 +50,15 @@ const NavBar = () => {
           className="contactIcon"
           onClick={() => {
             setContactToggle(!contactToggle);
-            setHomeToggle(false);
+            // setHomeToggle(false);
             setProjectsToggle(false);
             setAboutToggle(false);
           }}
         ></div>
       </div>
 
-      <div className={`navBox ${homeExpand}`}>
+      {/* <div className={`navBox ${homeExpand}`}> */}
+      <div className="navBox">
         <div className="navLink">
           <a href="/">Home</a>
           <a href="#about">About</a>

@@ -8,7 +8,9 @@ const Main = (props) => {
         <div className="bannerContainer">
             <div className="myName">
                 <p id="hello">Hello, my name is...</p>
-                <p role='textbox' aria-multiline='true' id="name">Gore Sometimes</p>
+                <p id="name">Gore Sometimes</p>
+                <p id="designer">Chef turned Developer</p>   
+
             </div>
         </div>
         <div className="footer">Designs by Sometimes</div>
