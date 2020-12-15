@@ -59,38 +59,29 @@ const NavBar = () => {
 
       {/* <div className={`navBox ${homeExpand}`}> */}
       <div className="navBox">
-        <div className="navLink">
+        {/* <div className="navLink">
           <a href="/">Home</a>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
-        </div>
+        </div> */}
       </div>
 
       <div className={`navBox ${aboutExpand}`}>
         <div className="navLink">
-          <a href="/">Project 1</a>
-          <a href="#about">Project 2</a>
-          <a href="#projects">Project 3</a>
-          <a href="#contact">Project 4</a>
+            <h1>About</h1>
         </div>
       </div>
 
       <div className={`navBox ${projectsExpand}`}>
         <div className="navLink">
-          <a href="/">Project 5</a>
-          <a href="#about">Project 6</a>
-          <a href="#projects">Project 7</a>
-          <a href="#contact">Project 8</a>
+            <h1>Projects</h1>
         </div>
       </div>
 
       <div className={`navBox ${contactExpand}`}>
         <div className="navLink">
-          <a href="/">Project 9</a>
-          <a href="#about">Project 10</a>
-          <a href="#projects">Project 11</a>
-          <a href="#contact">Project 12</a>
+            <h1>Contact</h1>
         </div>
       </div>
         </>
