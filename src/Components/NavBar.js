@@ -8,9 +8,6 @@ const NavBar = () => {
     const [projectsToggle, setProjectsToggle] = useState(false);
     const [contactToggle, setContactToggle] = useState(false);
   
-    const [mobileNavToggle, setMobileNavToggle] = useState(false)
-
-    const mobileExpand = mobileNavToggle ? "width2" : "";
     
     // const homeExpand = homeToggle ? "width1" : "";
     const aboutExpand = aboutToggle ? "width1" : "";
@@ -19,9 +16,8 @@ const NavBar = () => {
   
     return (
       <>
-        <div className="navIcon" onClick={() => setMobileNavToggle(!mobileNavToggle)}></div>
         
-        <div className={`linkContainer ${mobileExpand}`}>
+        <div className="linkContainer">
           <div
             className="homeIcon"
             onClick={() => {

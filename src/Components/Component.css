@@ -166,7 +166,7 @@
   /* End of Main Container */
   
   @media only screen and (max-width: 425px) {
-      .myName{
+    .myName{
         display: flex;
         flex-direction: column;
         height: 75vh;
@@ -175,11 +175,10 @@
         justify-content: space-around;
         position: fixed;
         top: 50%;
-        left: 45%;
+        left: 50%;
         transform: translate(-50%, -50%);
         /* mix-blend-mode: difference; */
         /* background: linear-gradient(to bottom, red, grey);     -webkit-background-clip: text;     -webkit-text-fill-color: transparent; */
-    
     }
     
     #hello{
@@ -210,7 +209,7 @@
         font-weight: bold;
     }
 
-    .navIcon{
+    /* .navIcon{
       position: fixed;
       background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1608097003/Portfolio1/Black_and_White_DS_Logo_16_fqbgmh.png');
       background-size: contain;
@@ -220,76 +219,88 @@
       margin: 10px;
       top: 0;
       right: 0;
-      /* background-color: rgba(0, 0, 0, 0.5); */
-
-    }
-    /* .navIcon:hover{
-      cursor: crosshair;
     } */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    .navIcon:hover{
+      cursor: crosshair;
+    }
+
+    .App{
+      position: relative;
+    }
 
     .linkContainer {
       position: fixed;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: space-evenly;
-      align-items: center;
-      height: 75vh;
+      /* align-items: center; */
+      /* height: 75vh; */
       /* width: 20vw; */
-      width: 0;
       /* margin-right: 10px; */
-      margin-top: 15vh;
-      top: 0;
-      right: -25vw;
+      width: 100vw;
+      height: 60px;
+      /* margin-top: 15vh; */
+      /* bottom: 0; */
+      margin-top: 93vh;
+      padding: 0;
       transition: all 1s;
-      /* mix-blend-mode: difference; */
+      background-color: white;
+      opacity: .5;
+      z-index: 1;
     }
-    .width2{
-      width: 50vw;
-      margin-right: 17px;
 
-    }
 
     .homeIcon:hover, .projectsIcon:hover, .contactIcon:hover, .aboutIcon:hover {
-      filter: invert(1);
+      filter: invert(0);
     }
   
     
     .homeIcon {
-      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/8_sbydpk.png");
+      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1608154551/Portfolio1/8_zqtgcn.png");
       background-size: contain;
       background-repeat: no-repeat;
-      width: 75%;
-      min-width: 100px;
-      height: 150px;
+      /* width: 75%; */
+      width: 75px;
+      height: 100px;
       display: flex;
+      /* transform: scale(1.15); */
+      z-index: 100;
+
       /* filter: invert(1); */
     }
     .aboutIcon {
-      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/7_rtjtxw.png");
+      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1608154551/Portfolio1/7_pb23mj.png");
       background-size: contain;
       background-repeat: no-repeat;
-      width: 75%;
-      min-width: 100px;
-      height: 150px;
+      /* width: 75%; */
+      width: 75px;
+      height: 100px;
+      z-index: 100;
+
       /* filter: invert(1); */
     }
     .projectsIcon {
-      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/9_bga09d.png");
+      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1608154551/Portfolio1/9_msm3wk.png");
       background-size: contain;
       background-repeat: no-repeat;
-      width: 75%;
-      min-width: 100px;
-      height: 150px;
+      /* width: 75%; */
+      width: 75px;
+      height: 100px;
+      z-index: 100;
+
       /* filter: invert(1); */
     }
     
     .contactIcon {
-      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1607986962/Portfolio1/10_tdfln9.png");
+      background: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1608154551/Portfolio1/10_frrveo.png");
       background-size: contain;
       background-repeat: no-repeat;
-      width: 75%;
-      min-width: 100px;
-      height: 150px;
+      /* width: 75%; */
+      width: 75px;
+      height: 100px;
+      z-index: 100;
+
       /* filter: invert(1); */
   
     }
@@ -329,6 +340,8 @@
   
     /* End of Main Container */
   
-
+    .footer{
+      display: none;
+    }
 
   }
