@@ -64,6 +64,7 @@
     
 }
 
+
 .linkContainer {
     position: fixed;
     display: flex;
@@ -71,18 +72,21 @@
     justify-content: space-evenly;
     align-items: center;
     height: 75vh;
-    width: 12.5vw;
-    margin-left: 10px;
+    width: 10vw;
+    /* margin-left: 10px; */
     margin-top: 12.5vh;
     top: 0;
     right: 0;
     filter: invert(1);
     /* mix-blend-mode: difference; */
-
-
   }
+  
+  /* background-color: rgba(0, 0, 0, 0.5); */
+
+
   .homeIcon:hover, .projectsIcon:hover, .contactIcon:hover, .aboutIcon:hover {
     filter: invert(1);
+    cursor: crosshair
   }
 
   
@@ -171,7 +175,7 @@
         justify-content: space-around;
         position: fixed;
         top: 50%;
-        left: 40%;
+        left: 45%;
         transform: translate(-50%, -50%);
         /* mix-blend-mode: difference; */
         /* background: linear-gradient(to bottom, red, grey);     -webkit-background-clip: text;     -webkit-text-fill-color: transparent; */
@@ -205,6 +209,24 @@
         font-size: 20px;
         font-weight: bold;
     }
+
+    .navIcon{
+      position: fixed;
+      background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1608097003/Portfolio1/Black_and_White_DS_Logo_16_fqbgmh.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 115px;
+      height: 115px;
+      margin: 10px;
+      top: 0;
+      right: 0;
+      /* background-color: rgba(0, 0, 0, 0.5); */
+
+    }
+    /* .navIcon:hover{
+      cursor: crosshair;
+    } */
+
     .linkContainer {
       position: fixed;
       display: flex;
@@ -212,15 +234,21 @@
       justify-content: space-evenly;
       align-items: center;
       height: 75vh;
-      width: 20vw;
-      margin-left: 10px;
-      margin-top: 12.5vh;
+      /* width: 20vw; */
+      width: 0;
+      /* margin-right: 10px; */
+      margin-top: 15vh;
       top: 0;
-      right: 0;
+      right: -25vw;
+      transition: all 1s;
       /* mix-blend-mode: difference; */
-  
-  
     }
+    .width2{
+      width: 50vw;
+      margin-right: 17px;
+
+    }
+
     .homeIcon:hover, .projectsIcon:hover, .contactIcon:hover, .aboutIcon:hover {
       filter: invert(1);
     }
@@ -283,7 +311,7 @@
     }
     
     .width1 {
-      width: 80vw;
+      width: 77vw;
       /* transform: translateX(0); */
       /* z-index: 100; */
       /* animation: fadein 2s; */

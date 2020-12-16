@@ -8,53 +8,59 @@ const NavBar = () => {
     const [projectsToggle, setProjectsToggle] = useState(false);
     const [contactToggle, setContactToggle] = useState(false);
   
+    const [mobileNavToggle, setMobileNavToggle] = useState(false)
+
+    const mobileExpand = mobileNavToggle ? "width2" : "";
+    
     // const homeExpand = homeToggle ? "width1" : "";
     const aboutExpand = aboutToggle ? "width1" : "";
     const projectsExpand = projectsToggle ? "width1" : "";
     const contactExpand = contactToggle ? "width1" : "";
   
     return (
-        <>
-        <div className="linkContainer">
-        <div
-          className="homeIcon"
-          onClick={() => {
-            // setHomeToggle(!homeToggle);
-            setAboutToggle(false);
-            setProjectsToggle(false);
-            setContactToggle(false);
-          }}
-        ></div>
+      <>
+        <div className="navIcon" onClick={() => setMobileNavToggle(!mobileNavToggle)}></div>
+        
+        <div className={`linkContainer ${mobileExpand}`}>
+          <div
+            className="homeIcon"
+            onClick={() => {
+              // setHomeToggle(!homeToggle);
+              setAboutToggle(false);
+              setProjectsToggle(false);
+              setContactToggle(false);
+            }}
+          ></div>
 
-        <div
-          className="aboutIcon"
-          onClick={() => {
-            setAboutToggle(!aboutToggle);
-            // setHomeToggle(false);
-            setProjectsToggle(false);
-            setContactToggle(false);
-          }}
-        ></div>
+          <div
+            className="aboutIcon"
+            onClick={() => {
+              setAboutToggle(!aboutToggle);
+              // setHomeToggle(false);
+              setProjectsToggle(false);
+              setContactToggle(false);
+            }}
+          ></div>
 
-        <div
-          className="projectsIcon"
-          onClick={() => {
-            setProjectsToggle(!projectsToggle);
-            // setHomeToggle(false);
-            setAboutToggle(false);
-            setContactToggle(false);
-          }}
-        ></div>
+          <div
+            className="projectsIcon"
+            onClick={() => {
+              setProjectsToggle(!projectsToggle);
+              // setHomeToggle(false);
+              setAboutToggle(false);
+              setContactToggle(false);
+            }}
+          ></div>
 
-        <div
-          className="contactIcon"
-          onClick={() => {
-            setContactToggle(!contactToggle);
-            // setHomeToggle(false);
-            setProjectsToggle(false);
-            setAboutToggle(false);
-          }}
-        ></div>
+          <div
+            className="contactIcon"
+            onClick={() => {
+              setContactToggle(!contactToggle);
+              // setHomeToggle(false);
+              setProjectsToggle(false);
+              setAboutToggle(false);
+            }}
+          ></div>
       </div>
 
       {/* <div className={`navBox ${homeExpand}`}> */}
