@@ -3,12 +3,13 @@
 
 
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Gruppo', cursive;
   scroll-behavior: smooth;
+  /* mix-blend-mode: difference; */
 }
 
 .footer {

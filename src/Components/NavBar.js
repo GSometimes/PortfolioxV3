@@ -26,7 +26,7 @@ const NavBar = () => {
               setProjectsToggle(false);
               setContactToggle(false);
             }}
-          ></div>
+          ><p>Home</p></div>
 
           <div
             className="aboutIcon"
@@ -36,7 +36,7 @@ const NavBar = () => {
               setProjectsToggle(false);
               setContactToggle(false);
             }}
-          ></div>
+          ><p>About</p></div>
 
           <div
             className="projectsIcon"
@@ -46,7 +46,7 @@ const NavBar = () => {
               setAboutToggle(false);
               setContactToggle(false);
             }}
-          ></div>
+          ><p>Projects</p></div>
 
           <div
             className="contactIcon"
@@ -56,7 +56,7 @@ const NavBar = () => {
               setProjectsToggle(false);
               setAboutToggle(false);
             }}
-          ></div>
+          ><p>Contact</p></div>
       </div>
 
       {/* <div className={`navBox ${homeExpand}`}> */}
@@ -70,21 +70,21 @@ const NavBar = () => {
       </div>
 
       <div className={`navBox ${aboutExpand}`}>
-        <div className="navLink">
+        {/* <div className="navLink">
+        </div> */}
             <p>About</p>
-        </div>
       </div>
 
       <div className={`navBox ${projectsExpand}`}>
-        <div className="navLink">
+        {/* <div className="navLink">
+        </div> */}
             <p>Projects</p>
-        </div>
       </div>
 
       <div className={`navBox ${contactExpand}`}>
-        <div className="navLink">
+        {/* <div className="navLink">
+        </div> */}
             <p>Contact</p>
-        </div>
       </div>
         </>
     )
