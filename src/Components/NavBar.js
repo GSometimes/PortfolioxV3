@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import '../App.css';
 import './Component.css';
+import Contact from "./Contact"
 
 const NavBar = () => {
     // const [homeToggle, setHomeToggle] = useState(false);
@@ -84,7 +85,7 @@ const NavBar = () => {
       <div className={`navBox ${contactExpand}`}>
         {/* <div className="navLink">
         </div> */}
-            <p>Contact</p>
+            <Contact />
       </div>
         </>
     )
