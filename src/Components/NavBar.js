@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import '../App.css';
 import './Component.css';
 import Contact from "./Contact"
+import About from "./About"
 
 const NavBar = () => {
     // const [homeToggle, setHomeToggle] = useState(false);
@@ -73,7 +74,7 @@ const NavBar = () => {
       <div className={`navBox ${aboutExpand}`}>
         {/* <div className="navLink">
         </div> */}
-            <p>About</p>
+            <About />
       </div>
 
       <div className={`navBox ${projectsExpand}`}>

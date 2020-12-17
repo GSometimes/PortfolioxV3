@@ -13,7 +13,7 @@ const Main = (props) => {
 
             </div>
         </div>
-        <div className="footer">© Designs by Sometimes</div>
+        <div className="footer">© 2020 Designs by Sometimes All Rights Reserved</div>
         </>
     )
 }

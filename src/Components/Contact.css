@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 
-
 /* Contact Form CSS */
 .contactContainer{
     height: 100vh;
+    position: absolute;
+    top: 10vh;
+    align-items: center;
 }
 
 #together{
@@ -17,35 +19,37 @@ a, a:hover, a:focus, a:active {
 }
 
 .flexContainer{
-    height: 100vh;
+    height: 75vh;
     width: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    /* padding: 20px; */
   }
   
   .contactForm {
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 35vw;
     margin: 0 auto;
   }
   
   .contactParagraph{
-    all:initial;
+    all: initial;
     height: 30vh;
-    width: 40vw;
-    font-size: 24px;
+    width: 35vw;
+    font-size: 20px;
     word-wrap: break-word;
     font-family: 'Gruppo', cursive;
+    font-weight: bold;
     color: white;
     text-align: justify;
   }
   
-  .form > h1 {
+  /* .form > h1 {
     margin-bottom: 30px;
-  }
+  } */
   
   .contactForm > input,
   textarea {
@@ -54,7 +58,7 @@ a, a:hover, a:focus, a:active {
     font-size: 16px;
     color: rgb(0, 0, 32);
     outline: none;
-    /* border: 2px solid#71A9F7; */
+    border: 2px solid#71A9F7;
   }
   
   
