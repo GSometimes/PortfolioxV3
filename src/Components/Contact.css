@@ -23,6 +23,7 @@ a, a:hover, a:focus, a:active {
 .flexContainer{
     height: 100%;
     width: 100%;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     /* justify-content: space-evenly; */
@@ -31,7 +32,7 @@ a, a:hover, a:focus, a:active {
     white-space: nowrap;
     word-wrap: break-word;
     margin-top: 10%;
-    /* overflow: scroll; */
+    overflow: hidden;
     
   }
   

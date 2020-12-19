@@ -272,11 +272,14 @@
       flex-direction: column;
       /* justify-content: center; */
       align-items: center;
+      overflow: hidden;  
       /* overflow: scroll; */
       width: 0;
       transition: all 1s;
       color: white;
-      font-size: 30px;;
+      font-size: 30px;
+      white-space: nowrap;
+
       /* transform: translateX(80vw) 1s ease; */
     }
     
@@ -453,7 +456,7 @@
     .navBox {
       height: 100%;
       background-color: rgba(0, 0, 0, 0.5);
-      position: fixed;
+      /* position: fixed; */
       top: 0;
       left: 0;
       display: flex;
