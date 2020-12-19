@@ -9,6 +9,9 @@
   box-sizing: border-box;
   font-family: 'Gruppo', cursive;
   scroll-behavior: smooth;
+  white-space: nowrap;
+  word-wrap: break-word;
+
   /* mix-blend-mode: difference; */
 }
 

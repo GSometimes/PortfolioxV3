@@ -8,6 +8,8 @@ const Main = (props) => {
         <div className="bannerContainer">
             <div className="myName">
                 <p id="hello">Hello, my name is...</p>
+                <img id ="myPic" src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1607283143/Portfolio1/829ABC3F-387C-44D9-978F-4D8D702D4865300_uttnwf.jpg" alt=""/>
+
                 <p id="name">Gore Sometimes</p>
                 <p id="designer">Chef turned Developer</p>   
 

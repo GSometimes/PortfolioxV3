@@ -38,6 +38,14 @@
     font-weight: bold;
 }
 
+#myPic{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 25px;
+  border: 4px solid white;
+}
+
 /* #myPic{
     border-radius: 50%;
     height: 225px;
@@ -147,7 +155,6 @@
     left: 0;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     overflow: hidden;
     width: 0;
@@ -189,7 +196,7 @@
       justify-content: space-around;
       position: fixed;
       top: 50%;
-      left: 50%;
+      left: 45%;
       transform: translate(-50%, -50%);
   }
   
@@ -219,6 +226,15 @@
       font-size: 25px;
       font-weight: bold;
   }
+
+  #myPic{
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+    margin: 25px;
+    border: 4px solid white;
+
+}
   
 
     .linkContainer {
@@ -256,7 +272,7 @@
       flex-direction: column;
       /* justify-content: center; */
       align-items: center;
-      overflow: scroll;
+      /* overflow: scroll; */
       width: 0;
       transition: all 1s;
       color: white;
@@ -269,6 +285,8 @@
     }
 
   }
+
+
 
   @media only screen and (max-width: 500px) {
     .myName{
@@ -313,6 +331,14 @@
         font-size: 20px;
         font-weight: bold;
     }
+    #myPic{
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      margin: 25px;
+      border: 4px solid white;
+
+  }
 
     /* .navIcon{
       position: fixed;

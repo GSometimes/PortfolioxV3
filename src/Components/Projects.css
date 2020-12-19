@@ -1,0 +1,87 @@
+.projectContainer{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 10%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    /* padding-top: 300px; */
+    white-space: nowrap;
+}
+
+
+.projectCard1, .projectCard2, .projectCard3, .projectCard4{
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    padding: 20px;
+    word-wrap: wrap;
+    margin: 0 auto;
+    line-height: 1;
+}
+
+.project1{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    border: 4px solid white;
+    margin: 10px;
+    
+}
+
+.projectImage1{
+    width: 60%;
+    height: 100%;
+    position: relative;
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1608323513/Portfolio1/Screenshot_2020-12-18_123128_a71ujf.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+}
+.projectImage2{
+    width: 60%;
+    height: 100%;
+    position: relative;
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607298374/Portfolio1/Screenshot_2020-12-06_154559_nbceix.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+}
+.projectImage3{
+    width: 60%;
+    height: 100%;
+    position: relative;
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607133056/Portfolio1/the_man_called_cayde_by_vulshokbersrker_dcxfgx8-fullview300_gly2rl.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+}
+.projectImage4{
+    width: 60%;
+    height: 100%;
+    position: relative;
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607132046/Portfolio1/portfolioBanner_g386ol.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+}
+
+
+
+.projectDescription{
+    all: initial;
+    font-size: 18px;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 500px) {}

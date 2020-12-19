@@ -3,6 +3,7 @@ import '../App.css';
 import './Component.css';
 import Contact from "./Contact"
 import About from "./About"
+import Projects from "./Projects"
 
 const NavBar = () => {
     // const [homeToggle, setHomeToggle] = useState(false);
@@ -80,7 +81,7 @@ const NavBar = () => {
       <div className={`navBox ${projectsExpand}`}>
         {/* <div className="navLink">
         </div> */}
-            <p>Projects</p>
+            <Projects />
       </div>
 
       <div className={`navBox ${contactExpand}`}>
