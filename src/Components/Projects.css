@@ -159,7 +159,6 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
-
         margin: 0 auto;
 
     }
@@ -171,7 +170,6 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
-
         margin: 0 auto;
 
     }
@@ -227,8 +225,6 @@
         max-width: 1200px;
         /* width: 90%; */
         border: 4px solid white;
-        margin: 10px;
-        
     }
     
     .projectImage1{
@@ -238,7 +234,6 @@
         background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1608323513/Portfolio1/Screenshot_2020-12-18_123128_a71ujf.png');
         background-size: 100% contain;
         background-repeat: no-repeat;
-        padding: 10px;
     }
     .projectImage2{
         width: 100%;
