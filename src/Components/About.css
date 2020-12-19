@@ -1,7 +1,7 @@
 .aboutContainer{
     position: absolute;
     height: 100%;
-    /* top: 10vh; */
+    top: 10vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -16,8 +16,8 @@
 .aboutParagraph{
     all: initial;
     height: 30%;
-    width: 50%;
-    font-size: 20px;
+    width: 40%;
+    font-size: 22px;
     word-wrap: break-word;
     font-family: 'Gruppo', cursive;
     font-weight: bold;
@@ -41,7 +41,7 @@ h3 {
     /* padding: 20px; */
     white-space: nowrap;
     word-wrap: break-word;
-    margin-top: 10%;
+    margin-top: 5%;
     overflow: hidden;
   }
 

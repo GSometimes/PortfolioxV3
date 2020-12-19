@@ -5,7 +5,7 @@
     width: 100vw;
     height: 100%;
     position: absolute;
-    /* top: 10vh; */
+    top: 10vh;
     align-items: center;
     
 }
@@ -34,21 +34,21 @@ a, a:hover, a:focus, a:active {
     /* padding: 20px; */
     white-space: nowrap;
     word-wrap: break-word;
-    margin-top: 10%;
+    margin-top: 5%;
     overflow: hidden;
   }
   
   .contactForm {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
     margin: 0 auto;
   }
   
   .contactParagraph{
     all: initial;
     height: 30%;
-    width: 45%;
+    width: 40%;
     font-size: 22px;
     word-wrap: break-word;
     font-family: 'Gruppo', cursive;
@@ -58,10 +58,7 @@ a, a:hover, a:focus, a:active {
     line-height: 1;
 
   }
-  
-  /* .form > h1 {
-    margin-bottom: 30px;
-  } */
+
   
   .contactForm > input,
   textarea {
