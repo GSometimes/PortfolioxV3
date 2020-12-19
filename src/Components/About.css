@@ -1,11 +1,11 @@
 .aboutContainer{
-    /* position: absolute; */
+    position: absolute;
     height: 100%;
     /* top: 10vh; */
+    width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: column; 
-    width: 100%;
     overflow: hidden;  
 
     /* overflow: scroll; */
@@ -30,15 +30,63 @@ h2 {
     text-align: center;
 }
 
-/* .tech{
-    display: flex;
-    flex-direction: row;
-    width: 50vw;
-    justify-content: space-evenly;
-}
-.fas{
-    color: white;
-} */
 
-@media only screen and (max-width: 768px) {}
-@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 768px) {
+
+    .aboutContainer{
+        position: absolute;
+        height: 100%;
+        top: 10vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column; 
+        /* overflow: hidden; */
+        /* overflow: scroll;    */
+    }
+
+    .aboutParagraph{
+        all: initial;
+        height: 35%;
+        width: 60%;
+        font-size: 16px;
+        font-family: 'Gruppo', cursive;
+        font-weight: bold;
+        color: white;
+        text-align: justify;
+        line-height: 1;
+        /* word-wrap: break-word; */
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .aboutContainer{
+        position: absolute;
+        height: 100%;
+        top: 10vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column; 
+        /* overflow: hidden; */
+        /* overflow: scroll;    */
+    }
+
+    .aboutParagraph{
+        all: initial;
+        height: 35%;
+        width: 75%;
+        font-size: 14px;
+        font-family: 'Gruppo', cursive;
+        font-weight: bold;
+        color: white;
+        text-align: justify;
+        line-height: 1;
+        /* word-wrap: break-word; */
+    }
+    
+
+}

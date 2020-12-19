@@ -1,5 +1,5 @@
 .projectContainer{
-    width: 100%;
+    width: 100vw;
     position: absolute;
     height: 100%;
     top: 10%;
@@ -10,6 +10,7 @@
     text-align: justify;
     /* padding-top: 300px; */
     white-space: nowrap;
+    padding-bottom: 10%;
 }
 
 

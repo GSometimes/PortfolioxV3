@@ -2,7 +2,7 @@
 
 /* Contact Form CSS */
 .contactContainer{
-    width: 100%;
+    width: 100vw;
     height: 100%;
     position: absolute;
     /* top: 10vh; */
@@ -23,7 +23,7 @@ a, a:hover, a:focus, a:active {
 .flexContainer{
     height: 100%;
     width: 100%;
-    /* position: absolute; */
+    position: absolute;
     display: flex;
     flex-direction: column;
     /* justify-content: space-evenly; */
