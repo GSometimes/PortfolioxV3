@@ -36,9 +36,7 @@ h3 {
     position: absolute;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
     align-items: center;
-    /* padding: 20px; */
     white-space: nowrap;
     word-wrap: break-word;
     margin-top: 5%;
@@ -57,8 +55,6 @@ h3 {
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column; 
-        /* overflow: hidden; */
-        /* overflow: scroll;    */
     }
 
     .aboutParagraph{
@@ -71,7 +67,6 @@ h3 {
         color: white;
         text-align: justify;
         line-height: 1;
-        /* word-wrap: break-word; */
     }
 }
 
@@ -82,12 +77,6 @@ h3 {
         height: 100%;
         top: 10%;
         width: 100vw;
-        /* display: flex; */
-        /* align-items: center; */
-        /* flex-direction: column;  */
-        /* justify-content: space-evenly; */
-        /* overflow: hidden; */
-        /* overflow: scroll;    */
     }
 
     .aboutParagraph{
@@ -99,8 +88,6 @@ h3 {
         font-weight: bold;
         color: white;
         text-align: justify;
-        /* line-height: 1; */
-        /* word-wrap: break-word; */
     }
     
     h3 {
