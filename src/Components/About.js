@@ -9,7 +9,7 @@ const About = () => {
                 <div className="flexContainerA"> 
                     <h3>A Father... Foodie... Gamer...</h3><br/>
                     <p className="aboutParagraph">
-                        I am a father, avid gamer, foodie and wino who's always looking to make last memories. My son, who you can see in the background, is my motivation, my “why” 
+                        I am a father, avid gamer, foodie and wino who's always looking to make lasting memories. My son, who you can see in the background, is my motivation, my “why” 
                         and the reason I do what I do. When I'm not coding you'll find me spending time with my son just hanging out, or creating something with him. You may also find me 
                         enjoying a nice glass of wine with friends or grinding my way through the Destiny universe.
                     </p>
